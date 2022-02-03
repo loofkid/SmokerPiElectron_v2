@@ -1,0 +1,1 @@
+export const apiServerAddress = window.api.networkInterfaces().eth0 && window.api.networkInterfaces().eth0.find(i => i.family == "IPv4").address == "10.8.13.45" ? "http://localhost:8080" : "http://10.8.13.45:8080";
